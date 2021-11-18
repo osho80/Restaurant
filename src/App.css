@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.enabled:hover {
+  cursor: pointer;
+}
+
+.disabled {
+  pointer-events: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
